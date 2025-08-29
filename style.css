@@ -1,0 +1,30 @@
+h4, p{
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+.div-inline{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightblue;
+}
+
+.flex-item {
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 10px; 
+    width: 300px;  
+    border: 1px solid black;
+}
